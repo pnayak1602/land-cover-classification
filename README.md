@@ -3,18 +3,21 @@ Steps for running the modules:
 1. Clone this github repo
 2. Inside the land-cover-classification directory, make the following new empty directories: data, logs, output.
 3. The structure of the entire directory must now look something like this:
-```├── land-cover-classification
+<pre>
+├── land-cover-classification
 │ ├── config
 │ ├── data
 │ ├── logs
 │ ├── models
 │ ├── notebooks
 │ ├── output
-│ ├── src```
+│ ├── src
+</pre>
 5. Download Version 1 LandCover AI dataset from : https://landcover.ai.linuxpolska.com/
 6. The dataset that you have just downloaded must be extracted in the "data" folder of "land-cover-classification".
 7. The structure of the data directory must look something like this:
-```├── data
+<pre>
+├── data
 │ ├── test
 │ │ ├── images
 │ │ └── masks
@@ -24,7 +27,8 @@ Steps for running the modules:
 │ ├── train
 │ │ ├── Patches_512 (*this is the dataset that you have downloaded)
 │ │ │ ├── images
-│ │ │ └── masks```
+│ │ │ └── masks
+</pre>
 8. You may choose to train the model. However, the models have already been saved in the models/ directory.
 9. pip install -r requirments.txt
 10. In the test/ and tes2/ directories, you may put some test datasets.
