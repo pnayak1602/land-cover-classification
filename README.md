@@ -1,7 +1,7 @@
 # land-cover-classification
 Steps for running the modules: 
 1. Clone this github repo
-2. Inside the land-cover-classification directory, make the following new empty directories: data, logs, output.
+2. Inside the land-cover-classification directory, make the following new empty directories: data, output.
 3. The structure of the entire directory must now look something like this:
 <pre>
 ├── land-cover-classification
